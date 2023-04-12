@@ -3,7 +3,7 @@ import React from 'react';
 export const useLoading = () => {
   const [loading, setLoading] = React.useState(false);
 
-  const timerId: any = React.useRef();
+  const timerId: any = React.useRef<number | undefined>();
 
   const showLoading = React.useCallback(() => {
     if (loading === true) {

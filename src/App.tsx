@@ -10,7 +10,7 @@ import { Camera } from './Components/Camera';
 import { useLoading } from './hooks/useLoading';
 
 function App() {
-  const videoRef: any = useRef(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
   const { loading, showLoading } = useLoading();
   const [screen, setScreen] = React.useState(1);
   const [popupOpen, setPopupOpen] = React.useState(false);

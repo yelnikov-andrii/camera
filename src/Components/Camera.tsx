@@ -11,7 +11,7 @@ const CameraStyled = styled.div<{ blur?: boolean }>`
 interface Props {
   screen: number;
   loading: boolean;
-  videoRef: any;
+  videoRef: React.RefObject<HTMLVideoElement>;
   popupOpen: boolean;
   setPopupOpen: Dispatch<SetStateAction<boolean>>;
 }
