@@ -1,38 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
+  margin: 0 auto;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.video {
+  border-radius: 30px;
+  width: 390px;
+  height: 488px;
+  object-fit: cover;
+}
+
+.block {
+  background: black;
+  border-radius: 30px;
+}
+
+.scan-border {
+  border-radius: 5px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: black;
+  padding: 36px 0 42px;
+}
+
+.count {
+  color: #FFE600;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-button {
+  border-radius: 5px;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-button__span {
+  background: #FFE600;
+  border: 2px dashed #000000;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 32px;
+  width: 260px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.popup {
+  border-radius: 5px;
+  z-index: 2;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 280px;
+  height: 254px;
+  background: #FFE600;
+  padding: 20px;
+  border: 2px dashed #000000;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 32px;
+}
+
+.popup__span {
+  display: inline-flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: 0 0 30px 0;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.popup__button {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  border: none;
+  background: #000000;
+  color: #FFE600;
 }
