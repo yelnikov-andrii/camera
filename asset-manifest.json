@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/camera/static/css/main.e50b769a.css",
+    "main.js": "/camera/static/js/main.9715ec68.js",
+    "static/media/button5.svg": "/camera/static/media/button5.869646ba2ce75bd4d997069cc1a258c9.svg",
+    "static/media/scan border.svg": "/camera/static/media/scan border.ee873e00e4db3defc4fe5ff5cad4be78.svg",
+    "static/media/button2.svg": "/camera/static/media/button2.7fe5f6dc99e2abd5e61a5cd3084f9216.svg",
+    "static/media/button4.svg": "/camera/static/media/button4.fd1384f3218e0cff5e6c9e5bc441c4ec.svg",
+    "static/media/button1.svg": "/camera/static/media/button1.5278c79340e0956c9397cad7182dda06.svg",
+    "static/media/button3.svg": "/camera/static/media/button3.35e71926b2fdaad8cacd1672800feeed.svg",
+    "index.html": "/camera/index.html",
+    "main.e50b769a.css.map": "/camera/static/css/main.e50b769a.css.map",
+    "main.9715ec68.js.map": "/camera/static/js/main.9715ec68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e50b769a.css",
+    "static/js/main.9715ec68.js"
+  ]
+}
